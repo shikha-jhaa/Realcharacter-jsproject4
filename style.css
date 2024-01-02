@@ -46,3 +46,9 @@ body{
 .remaining-counter{
     color: red;
 }
+@media only screen and (max-width: 600px), (min-width: 300px) {
+
+    body {
+        background-size: cover; /* Adjust background size for smaller screens */
+    }
+}
